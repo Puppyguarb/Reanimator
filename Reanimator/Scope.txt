@@ -1,0 +1,27 @@
+[x]Objective 1: Find a way to give the player troops after battle. Ideally, that number should equal the amount killed.
+	[X]> Find a way to see debug messages.
+	[x]> Figure out what handles troop management, and probably prisoner management. Likely a battle end class. 	BattleEndLogic seems like a good start.
+	[x]> Figure out a way to add the troops. Probably by adding them as prisoners.
+		Here's what I'm thinking, everytime an agent dies, we check that they're not a horse, and later that they're 		not one of the special undead. We add them to a death counter, which we will use at the end of the battle.
+
+		For the counter we need a global variable that's set to 0 when a battle begins, and is used after to give 		prisoners.
+[x]Objective 2: Create a custom troop, call it Undead or something. The kills should give the player these.
+[x]Objective 3: When the custom troop dies, they shouldn't be given back to the player.
+[x]Objective 4: When the player kills an entire army with zero prisoners, we should force the game to open the troop transfer screen anyway.
+[x]Objective: Make undead have no upkeep.
+
+[/]Objective: Make undead not require food.
+	> Need a way to track how many undead are in the party, but not run it every frame.
+	  Ideally, this will be achieved by checking whenever the game is loaded, and whenever the player alters their party.
+
+
+[x]Objective: Add more undead. Tier matters for deaths. Archers count as one tier less (minimum of one)
+[x]Objective: When the player does not participate in a battle, they should still get undead from enemies their troops killed.
+
+[x]Objective: When a player simulates a battle between them and an enemy, but with allied parties, they should not get troops from their allies' kills.
+
+Objective: On battle start, clear the stored troop arrays in case the player lost a battle earlier and has cached undead.
+Objective: Add a way for the player to kill their prisoners? If they have too many and can't get any more undead.
+
+Objective: Find a way to check if a character is undead, and if it's by comparing race ids, find a way to keep compatibility.
+Objective: Fix translations

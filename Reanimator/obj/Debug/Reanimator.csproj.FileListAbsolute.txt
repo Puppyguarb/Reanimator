@@ -1,0 +1,7 @@
+Z:\VisualstudioRepos\Reanimator\Reanimator\obj\Debug\Reanimator.csproj.AssemblyReference.cache
+Z:\VisualstudioRepos\Reanimator\Reanimator\obj\Debug\Reanimator.csproj.CoreCompileInputs.cache
+Z:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Reanimator\bin\Win64_Shipping_Client\Reanimator.dll
+Z:\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\Reanimator\bin\Win64_Shipping_Client\Reanimator.pdb
+Z:\VisualstudioRepos\Reanimator\Reanimator\obj\Debug\Reanimator.dll
+Z:\VisualstudioRepos\Reanimator\Reanimator\obj\Debug\Reanimator.pdb
+Z:\VisualstudioRepos\Reanimator\Reanimator\obj\Debug\Reanimator.csproj.CopyComplete
